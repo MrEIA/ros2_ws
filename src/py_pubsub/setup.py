@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'talker = py_pubsub.publisher_script:main',
+            'topics_practice = py_pubsub.topics_practice:main',
             'listener = py_pubsub.listener:main'
         ],
     },
